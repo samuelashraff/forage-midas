@@ -40,6 +40,10 @@ public class UserRecord {
         return balance;
     }
 
+    public void setBalance(Long balance) {
+        this.balance = balance;
+    }
+
     public void setBalance(float balance) {
         this.balance = balance;
     }
